@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Menu</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <script defer src="../logic/mainMenu.js"></script>
+</head>
+<body>
+  <div id="themeToggle">
+    <label class="switch">
+      <input type="checkbox" id="darkMode">
+      <span class="slider round"></span>
+      <span id="modeLabel">Light Mode</span>
+    </label>
+  </div>
+  <div id="tiltContainer">
+    <div id="tiltContent">
+      <h1>Main Menu</h1>
+      <div id="menu">
+        <button id="numberGuesser">Number Guesser</button>
+        <button id="calculator">Calculator</button>
+        <button id="clockCounter">Clock + Counter</button>
+      </div>
+    </div>
+  </div>
+  <div id="particles"></div>
+  <a href="https://github.com/4udirs7" target="_blank" class="github-logo" id="githubLogo"></a>
+  <audio id="clickSound" src="../audio/click.mp3"></audio>
+  <audio id="wooshSound" src="../audio/woosh.mp3"></audio>
+  <div id="popup" class="hidden">
+    <div id="popupContent">
+      <h2 id="popupTitle">Hey👋</h2>
+      <div id="popupMessage"></div>
+      <button id="popupClose">Continue</button>
+    </div>
+  </div>
+</body>
+</html>

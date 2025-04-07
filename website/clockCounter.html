@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock + Counter</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <script defer src="../logic/clockCounter.js"></script>
+</head>
+<body>
+  <button id="goBack">←</button>
+  <div id="themeToggle">
+    <label class="switch">
+      <input type="checkbox" id="darkMode">
+      <span class="slider round"></span>
+      <span id="modeLabel">Light Mode</span>
+    </label>
+  </div>
+  <div id="tiltContainer">
+    <div id="tiltContent">
+      <h1>Clock + Counter</h1>
+      <select id="timezoneDropdown"></select>
+      <div id="clockContainer">
+        <p id="clockTime"></p>
+      </div>
+      <div id="counter">
+        <button id="decrement" class="animated-button">Decrease</button>
+        <button id="reset" class="animated-button">Reset</button>
+        <button id="increment" class="animated-button">Increase</button>
+      </div>
+      <p id="count">0</p>
+    </div>
+  </div>
+  <div id="particles"></div>
+  <a href="https://github.com/4udirs7" target="_blank" class="github-logo" id="githubLogo"></a>
+  <audio id="clickSound" src="click.mp3"></audio>
+  <audio id="wooshSound" src="woosh.mp3"></audio>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <script defer src="../logic/calculator.js"></script>
+</head>
+<body>
+  <button id="goBack">←</button>
+  <div id="themeToggle">
+    <label class="switch">
+      <input type="checkbox" id="darkMode">
+      <span class="slider round"></span>
+      <span id="modeLabel">Light Mode</span>
+    </label>
+  </div>
+  <div id="tiltContainer">
+    <div id="tiltContent">
+      <h1>Calculator</h1>
+      <div id="calculator">
+        <input type="text" id="calcDisplay" disabled>
+        <div id="calcButtons">
+          <!-- Buttons for numbers and operations -->
+          <button>7</button><button>8</button><button>9</button><button>/</button>
+          <button>4</button><button>5</button><button>6</button><button>*</button>
+          <button>1</button><button>2</button><button>3</button><button>-</button>
+          <button>0</button><button>.</button><button>=</button><button>+</button>
+          <button id="clear">Clear</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="particles"></div>
+  <a href="https://github.com/4udirs7" target="_blank" class="github-logo" id="githubLogo"></a>
+  <audio id="clickSound" src="click.mp3"></audio>
+  <audio id="wooshSound" src="woosh.mp3"></audio>
+</body>
+</html>
