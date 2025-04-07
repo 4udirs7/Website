@@ -89,15 +89,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function countLinesAndFiles() {
     const files = [
-      '../logic/mainMenu.js',
-      '../style/style.css',
-      '../website/index.html',
-      '../logic/numberGuesser.js',
-      '../logic/clockCounter.js',
-      '../logic/calculator.js',
-      '../website/numberGuesser.html',
-      '../website/clockCounter.html',
-      '../website/calculator.html'
+      'logic/mainMenu.js',
+      'style/style.css',
+      'website/index.html',
+      'logic/numberGuesser.js',
+      'logic/clockCounter.js',
+      'logic/calculator.js',
+      'website/numberGuesser.html',
+      'website/clockCounter.html',
+      'website/calculator.html'
     ];
     let totalLines = 0;
     let fileCount = 0;
