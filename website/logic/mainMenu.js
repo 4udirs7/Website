@@ -5,15 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('modeLabel').textContent = isDarkMode ? 'Dark Mode' : 'Light Mode';
 
   document.getElementById('numberGuesser').addEventListener('click', () => {
-    window.location.href = '../website/numberGuesser.html';
+    window.location.href = 'numberGuesser.html';
   });
 
   document.getElementById('calculator').addEventListener('click', () => {
-    window.location.href = '../website/calculator.html';
+    window.location.href = 'calculator.html';
   });
 
   document.getElementById('clockCounter').addEventListener('click', () => {
-    window.location.href = '../website/clockCounter.html';
+    window.location.href = 'clockCounter.html';
   });
 
   const tiltContainer = document.getElementById('tiltContainer');
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2000);
   });
 
-  const enablePopupDelay = false;
+  const enablePopupDelay = true;
 
   const popupMessage = document.getElementById('popupMessage');
   const popupClose = document.getElementById('popupClose');
